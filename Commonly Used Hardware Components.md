@@ -4,7 +4,7 @@
 
 **Data Acquisition Modules:**
 
-Temperature Sensors : TI LMT84LP , Sparkfun DS18B20 , Microchip TC74 , GY-906
+*Temperature Sensors :* TI LMT84LP , Sparkfun DS18B20 , Microchip TC74 , GY-906
 
 MLX90614ESF Infrared Temperature Sensor
 
