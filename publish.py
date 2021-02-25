@@ -17,7 +17,7 @@ from AWSIoTPythonSDK.MQTTLib import AWSIoTMQTTClient
 myMQTTClient = AWSIoTMQTTClient("pcClientID")
 myMQTTClient.configureEndpoint("a1d31vc1xczakc-ats.iot.us-east-2.amazonaws.com", 8883)
 
-myMQTTClient.configureCredentials("C:/Users/surya/Downloads/AmazonRootCA1.pem", "C:/Users/athma/Downloads/10a100330b-private.pem.key", "C:/Users/athma/Downloads/10a100330b-certificate.pem.crt")
+myMQTTClient.configureCredentials("C:/Users/surya/Downloads/AmazonRootCA1.pem", "C:/Users/surya/Downloads/10a100330b-private.pem.key", "C:/Users/surya/Downloads/10a100330b-certificate.pem.crt")
 
 myMQTTClient.configureOfflinePublishQueueing(-1) # Infinite offline Publish queueing
 myMQTTClient.configureDrainingFrequency(2) # Draining: 2 Hz
