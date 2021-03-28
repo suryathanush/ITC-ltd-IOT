@@ -1,0 +1,40 @@
+CHANGES TO BE MADE
+Client side codes :
+speed_detect_linked.py : (OCR + publisher code)
+(Publisher linked speed_detect.py code)
+Line:35 (file path of csv file which is assigned for caching)
+Line:14 (client_id = “<any name / or leave as it is>”)
+
+publisher.py : (sample publisher code)
+Line:14 (client_id = “<any name / or leave as it is>”)
+Line:27 (file path of csv file which is assigned for caching)
+Line:96 (main_func())
+Place in this function all the image processing script that is supposed to be in the forever loop
+Example : if in original OCR code;
+                     while(1):
+                           print(“hi”)
+                           print(“OCR code runs in this loop”)
+                          
+                         Then main_func() will be like:
+                              main_func():
+                                    print(“hi”)
+                           print(“OCR code runs in this loop”)
+
+Note : arguments in publish() function should be changed according to the return values of OCR code that are to be transfered
+
+cache_upload.py :
+Line:10 (client_id = “<any name / or leave as it is>”)
+Line:81 (file path of csv file which is assigned for caching)
+Line:86 (file path of csv file which is assigned for caching)
+Line:105 (file path of csv file which is assigned for caching)
+
+Server side codes :
+
+server_live.py :
+Line 11-16 (mysql database credentials and port number)
+Line:29 (client_id = “<any name / or leave as it is>”)
+
+server_cache.py :
+Line 11-16 (mysql database credentials and port number)
+Line:29 (client_id = “<any name / or leave as it is>”)
+
