@@ -24,8 +24,8 @@
        Then main\_func() will be like:
 
                    main_func():
-                   print(&quot;hi&quot;)
-                   print(&quot;OCR code runs in this loop&quot;)
+                       print(&quot;hi&quot;)
+                       print(&quot;OCR code runs in this loop&quot;)
 
 **Note :** arguments in publish() function should be changed according to the return values of OCR code that are to be transfered
 
