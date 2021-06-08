@@ -1,12 +1,15 @@
 # ITC-ltd-IOT
-IOT application development for ITC limited
+1.IOT application development for ITC limited
+
+2.Full stack Development using JavaScript HTML CSS Django
 
 
-## Members :
-Marut shukla (coordinator)
+Project Members:
 
-Manimozhi
+Marut Shukla (Project Coordinator)
 
 Arunesh
 
-Surya
+Manimozhi
+
+Surya Thanush
