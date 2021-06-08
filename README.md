@@ -4,7 +4,7 @@
 2.Full stack Development using JavaScript HTML CSS Django
 
 
-Project Members:
+## Project Members:
 
 Marut Shukla (Project Coordinator)
 
